@@ -1,3 +1,81 @@
-p {
-    color: #2596be;
+/*Colors*/
+/*#444444 dark gray*/
+/*#FAF7ED light tan*/
+/*#ffffff bright white*/
+/*#F6F5F1 off white*/
+
+
+/* NAVBAR CUSTOMIZATIONS */
+.navbar-nav {
+    margin-left: auto;
 }
+
+.navbar-toggler {
+    margin-left: auto;
+}
+
+.navbar-dark {
+    background-color: #444444;
+    color: #ffffff;
+}
+
+.navbar-custom{
+    background-color: #444444;
+}
+
+.navbar-custom .nav-link {
+    color: #F6F5F1;
+    font-family: Lora;
+}
+
+/* SECTION COLORS */
+.bg-custom-dark {
+    color: #F6F5F1;
+    background-color: #444444;
+}
+
+.bg-custom-medium {
+    color: #444444;
+    background-color: #FAF7ED;
+}
+
+.bg-custom-light {
+    color: #444444;
+    background-color: #ffffff;
+}
+
+/* SPLASH CUSTOMIZATIONS */
+html,
+body,
+header,
+#splash {
+    height: 95%;
+}
+
+.splash-image {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    bottom: 30%;
+    left: 10%;
+    right: 10%;
+}
+
+/* FONT STYLES */
+body {
+    font-family: 'Open Sans';
+}
+
+h1,h2 {
+    font-family: Lora;
+}
+
+h1 {
+    font-size: 54px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 24px;
+}
+
