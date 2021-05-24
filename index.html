@@ -11,7 +11,8 @@
     </head>
     
     <body>
-        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
         <!--    TOP NAVIGATION -->
         <nav class="navbar navbar-expand-lg navbar-custom">
             <div class="container-fluid">
@@ -20,11 +21,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" href="#">About</a>
-                        <a class="nav-link" href="#">Cards</a>
-                        <a class="nav-link" href="#">Workshop</a>
-                        <a class="nav-link" href="#">Our Story</a>
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#cards">Cards</a>
+                        <a class="nav-link" href="#workshop">Workshop</a>
+                        <a class="nav-link" href="#story">Our Story</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </div>
                 </div>
             </div>
@@ -39,9 +40,124 @@
             
         </div>
         
-<!--        ABOUT-->
-        <div class="container-fluid bg-custom-medium" >
-            stuff coming soon :)
+        <!--        ABOUT-->
+        <div id="about" class="container-fluid bg-custom-medium" >
+            <div class="container-sm p-4" >
+                <h2 >About</h2>
+                <p>Want to plan and assess your product's user interactions from a DEI lens? This toolkit can be used to evaluate platforms where users interact with other users. It will help you understand how users can interact on your platform, and how those interactions can facilitate either diversity and inclusion or harassment, discrimination, and bias.</p>
+                <h3>Technology is not neutral</h3>
+                <p>All platforms with users have the opportunity for discrimination because of their platform, even if they consider themselves unbiased.</p>
+                <p>Platforms can construct user interactions in ways that both mitigate and aggravate bias.</p>
+                <p>Numerous platforms have come under fire for design choices that enable prejudicial modes of thought and action. It is in both moral and business interests to create an equitable, inclusive platform.</p>
+            </div>
         </div>
         
+        <!--        CARDS-->
+        <div id="cards" class="container-fluid bg-custom-light" >
+            <div class="container-sm p-4" >
+                <div class="row align-items-center g-5">
+                    <div class="col">
+                        <h2>Cards</h2>
+
+                        <p>These cards contain 20 prompts organized into 7 themes:</p>
+                        <ul>
+                            <li>Shared information</li>
+                            <li>Developing trust</li>
+                            <li>Highlighting the whole human</li>
+                            <li>Structuring user interactions</li>
+                            <li>Supporting users</li>
+                            <li>Measuring</li>
+                            <li>Talking the talk</li>
+                        </ul>
+                        <a class="btn btn-primary" href="interaction.dei.toolkit@gmail.com" role="button">Cards PDF</a>
+                    </div>
+                    <div class="col">
+                        <img src="img/cards.png" height=400 alt="Seven cards from the toolkit with one of the theme names on each"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--        WORKSHOP-->
+        <div id="workshop" class="container-fluid bg-custom-medium" >
+            <div class="container-sm p-4" >
+                <div class="row align-items-center g-5">
+                    <div class="col">
+                        <h2>Workshop</h2>
+
+                        <p>This toolkit can be used to generate ideas for new platforms, iterate on current designs, and evaluate existing products. Prompts can be considered individually or in a group workshop setting. Run in a workshop following these four steps:</p>
+                        <ol type="I">
+                            <li>Shared information</li>
+                            <li>Developing trust</li>
+                            <li>Highlighting the whole human</li>
+                            <li>Structuring user interactions</li>
+                        </ol>
+                        <a class="btn btn-primary" href="interaction.dei.toolkit@gmail.com" role="button">Miro Workshop Template</a>
+                        <a class="btn btn-primary" href="interaction.dei.toolkit@gmail.com" role="button">Figma Workshop Template</a>
+                    </div>
+                    <div class="col">
+                        <img src="img/workshop.png" height=350 alt="Workshop template for the toolkit which has all of the toolkit content along with empty spaces to fill in questions and collaborate"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--        OUR STORY-->
+        <div id="story" class="container-fluid bg-custom-light" >
+            <div class="container-sm p-4" >
+                <h2>Our Story</h2>
+                <p>This was created by Rachel Feltes, Megan Peaslee, Meghna Nayak, and Sara Koeck for our graduate capstone project in Human Centered Design & Engineering at the University of Washington. We all work in industry as UX Designers or Researchers.</p>
+                <p>TWe created this artifact over the course of our Master's thesis project. When looking for a tool to guide us in evaluating the DEI of a care matching platform, we couldn't find one. So, we decided to create our own based on our research. We conducted extensive research by analyzing literature on DEI, talking to industry experts, and talking to marginalized users affected by the platform we were evaluating. Our findings turned into this set of DEI focused prompts.</p>
+                
+                <div>
+                    <h3 class="thanks">Many thanks to our sponsor, advisors, and a third thing</h3>
+                    <div class="row align-items-center g-2 p-3 justify-content-evenly">
+                        <div class="col-3">
+                            <img src="img/hcde.png" lt="Human Centered Design & Engineering, University of Washington" class="brand-img"/>
+                        </div>
+                        <div class="col-3">
+                            <img src="img/carina.png"  alt="Carina" class="brand-img"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!--        CONTACT-->
+        <div id="contact" class="container-fluid bg-custom-medium" >
+            <div class="container-sm p-4" >
+                <h2>Contact</h2>
+                <p>TThis toolkit is a starter kit, developed with a focus in marketplace-style platforms where two people are connected for goods, services, or companionship, and framed using United States cultural norms. Many of these prompts can be considered if you are coming from other contexts, however please consider what areas may not translate and what may be missing.</p>
+                <p>These topics are all important, but not currently incorporated in this toolkit:</p>
+                <ul>
+                    <li>Inclusive design through co-creation & collaboration with your users</li>
+                    <li>Best practices for internal DEI/DEI in the workplace</li>
+                    <li>Accessibility best practices</li>
+                    <li>Legal compliance considerations</li>
+                </ul>
+                <p> Would you like to contribute to extending this toolkit? Do you have feedback on any of the prompts or examples currently included? Email us at <a href="mailto:interaction.dei.toolkit@gmail.com">interaction.dei.toolkit@gmail.com</a>.</p>
+                <a class="btn btn-primary" href="interaction.dei.toolkit@gmail.com" role="button">Contact Us</a>
+            </div>
+        </div>
+        
+<!--        BOTTOM NAVIGATION-->
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container-fluid">
+                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#cards">Cards</a>
+                        <a class="nav-link" href="#workshop">Workshop</a>
+                        <a class="nav-link" href="#story">Our Story</a>
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
     </body>
+</html>
