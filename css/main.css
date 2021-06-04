@@ -187,3 +187,13 @@ a:hover {
     font-weight: 600;
     border-color: #444444;
 }
+
+.disabled {
+    margin: 4px;
+    color: #fff;
+    background-color: #333333;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+    border-color: #444444;
+}
